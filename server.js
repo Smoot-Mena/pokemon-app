@@ -19,7 +19,7 @@ app.use("/pokemon", pokemonRoutes);
 
 // Root Route
 app.get("/", (req, res) => {
-    res.send("<h1>Welcome to the Pokemon App!</h1>");
+    res.send("<h1>Welcome to the Pokemon App!</h1><br /><br /><a href='/pokemon'>Pokemon Page</a>");
 });
 
 // Listening Port
