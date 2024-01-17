@@ -10,7 +10,7 @@ const Index = ( {pokemon} ) => {
             fontSize: "4.5em",
             fontFamily: "'Century Gothic', sans-serif",
             color: "yellow",
-            textShadow: "10px 3px 13px blue"
+            textShadow: "12px 3px 13px blue"
         }} 
         className="page-title">See All The Pokemon!</h1>
         <section style={{
